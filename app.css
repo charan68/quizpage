@@ -1,0 +1,53 @@
+
+body{
+    background: url('https://images.procreate.art/64897/3b044060318aa7c95.jpg') ;
+    font-family: 'Roboto Condensed', sans-serif !important;    
+}
+
+.col-md-7 {
+    color: rgb(255, 255, 255) !important;
+    margin-top: 150px !important;
+    background-color: rgba(77, 77, 77, 0.337) !important;
+    padding: 2em;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px !important;
+    color: rgb(0, 0, 0);
+}
+
+input, label{
+    font-size: 30px;
+}
+button{
+    margin-top: 1em;
+}
+h2{
+   margin-top: 0.5em;
+}
+h1{
+    
+    font-style: italic;
+    font-weight:600;
+    font-size: xx-large;
+    padding: 6px;
+    margin-top: -1.8em;
+    color: black;
+    width: 100%;
+    background-color: beige;
+    border-radius: 20px;
+    
+    
+}
+
+@media (max-width: 790px) {
+
+    .container{
+        margin-top: 3em;
+        width: 90% !important;
+    }
+    h2{
+        font-size: xx-large;
+        margin-bottom: 0.5em;
+    }
+    
+}
